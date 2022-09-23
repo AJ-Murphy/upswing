@@ -1,3 +1,15 @@
-<script setup lang="ts"></script>
+<template>
+    <TaskList />
+</template>
 
-<style scoped></style>
+<script lang="ts">
+import TaskList from "@/components/TaskList.vue";
+
+export default {
+  components: {
+    TaskList,
+  },
+};
+</script>
+
+<style lang="scss" scoped></style>
